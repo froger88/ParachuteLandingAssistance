@@ -1,0 +1,29 @@
+A (PRECISION):
+    1. Add termometer
+    2. Update signal timing formula (331.5 + (0.6 * @))
+        @ - temperature (Celsius degree)
+
+B (PRECISION)
+    1. Calculate vertical speed of parachute
+    2. Update formula with speed influence
+
+C (TESTS)
+    1. Write unit tests
+
+D (BLACK BOX)
+    1. Add write to EEPROM as logbook
+        (Time, L1, L2, H) from 699 cm to 30 cm
+
+E (BLACK BOX)
+    1. Add micro-sd card
+    2. Add support for #D on microsd
+
+F (SAFETY)
+    1. Add safety test
+
+G (PRECISION)
+    1. Add calibration module
+
+H (USABILITY)
+    1. Add LCD panel output
+    2. Add suport for panel-level calibration
